@@ -1,0 +1,39 @@
+touch style
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #C5ADC5;
+    color: #fff;
+}
+
+header {
+    background-color: #8d6f8d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+footer {
+    background-color: #8d6f8d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
