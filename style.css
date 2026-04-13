@@ -42,7 +42,7 @@ a { text-decoration: none; color: inherit; }
 
 
 .header { grid-area: header; }
-.sidebar { grid-area: sidebar; background: #eee; padding: 20px; }
+.sidebar { grid-area: sidebar; background: #DDC2B4; padding: 20px; }
 .main { grid-area: main; padding: 20px; }
 .footer { grid-area: footer; }
 
@@ -69,6 +69,31 @@ a { text-decoration: none; color: inherit; }
 .nav a:hover {
     color: var(--color-accent);
 }
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    color: white;
+    text-align: center;
+}
+.cta-button {
+    background: var(--color-accent);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background: rgb(236, 189, 132); /* Cambia el color al pasar el mouse */
+}
+
 .services {
     padding: 20px;
     text-align: center;
