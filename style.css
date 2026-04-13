@@ -1,9 +1,9 @@
 :root {
     --color-primary: #B7818E;
-    --color-secondary: #CF4D6F;
+    --color-secondary:#7D4F50;
     --color-accent: #CC7E85;
-    --color-text: #C06D90;
-    --color-bg: #E5AFA4;
+    --color-text: #F9EAE1;
+    --color-bg: #AA998F;
     --radius: 8px;
     --shadow: 0 2px 8px rgba(0,0,0,0.1);
     --font-main: 'Inter', sans-serif; 
@@ -17,7 +17,7 @@ touch style
 }
 body {
     font-family: var(--font-main);
-    font-size: 16px; /* 1rem */
+    font-size: 16px; 
     line-height: 1.6;
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -30,8 +30,8 @@ h3 { font-family: var(--font-title); font-size: 1.3rem; }
 a { text-decoration: none; color: inherit; }
 
 header {
-    background-color: #8d6f8d;
-    color: #131111;
+    background-color: #7D4F50;
+    color: #F9EAE1;
     padding: 20px;
     text-align: center;
 }
@@ -104,8 +104,8 @@ input:valid:not(:placeholder-shown) {
 }
 
 button {
-    background-color: #333;
-    color: rgb(14, 13, 13);
+    background-color: #CC7E85;
+    color: rgb(238, 216, 216);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
