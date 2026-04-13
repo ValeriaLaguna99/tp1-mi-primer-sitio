@@ -1,19 +1,30 @@
+:root {
+    --color-primary: #B7818E;
+    --color-secondary: #CF4D6F;
+    --color-accent: #CC7E85;
+    --color-text: #C06D90;
+    --color-bg: #E5AFA4;
+    --radius: 8px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.1);
+    --font-main: 'Inter', sans-serif; 
+    --font-title: 'Montserrat', sans-serif; 
+}
 touch style
 {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: 'Arial', sans-serif; 
     background-color: #C5ADC5;
     color: #fff;
 }
 
+
 header {
     background-color: #8d6f8d;
-    color: #fff;
+    color: #131111;
     padding: 20px;
     text-align: center;
 }
@@ -69,7 +80,6 @@ textarea {
     display: block;
 }
 
-/* Validación visual */
 input:focus, textarea:focus {
     outline: none;
     border-color: #007BFF;
@@ -88,7 +98,7 @@ input:valid:not(:placeholder-shown) {
 
 button {
     background-color: #333;
-    color: white;
+    color: rgb(14, 13, 13);
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
