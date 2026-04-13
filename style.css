@@ -16,9 +16,11 @@ touch style
     padding: 0;
 }
 body {
-    font-family: 'Arial', sans-serif; 
-    background-color: #C5ADC5;
-    color: #fff;
+    font-family: var(--font-main);
+    font-size: 16px; /* 1rem */
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
 }
 
 
