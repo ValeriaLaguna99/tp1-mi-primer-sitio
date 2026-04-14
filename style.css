@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #B7818E;
-    --color-secondary:#BD8182;
-    --color-accent: #CC7E85;
-    --color-text: #faf9f9;
-    --color-bg: #DDC2B4;
+    --color-primary: #890620;
+    --color-secondary:#420A04;
+    --color-accent: #890620;
+    --color-text: white;
+    --color-bg: #D4968A;
     --radius: 8px;
     --shadow: 0 2px 8px rgba(0,0,0,0.1);
     --font-main: 'Inter', sans-serif; 
@@ -42,7 +42,7 @@ a { text-decoration: none; color: inherit; }
 
 
 .header { grid-area: header; }
-.sidebar { grid-area: sidebar; background: #DDC2B4; padding: 20px; }
+.sidebar { grid-area: sidebar; background:#890620 ; padding: 20px; }
 .main { grid-area: main; padding: 20px; }
 .footer { grid-area: footer; }
 
@@ -91,7 +91,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .cta-button:hover {
-    background: rgb(236, 189, 132); /* Cambia el color al pasar el mouse */
+    background: rgb(243, 169, 78); /* Cambia el color al pasar el mouse */
 }
 
 .services {
@@ -107,7 +107,7 @@ a { text-decoration: none; color: inherit; }
 
 .card {
     flex: 1 1 280px; 
-    background: var(--color-bg);
+    background: var(--color-secondary);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
     padding: 20px;
@@ -119,7 +119,7 @@ a { text-decoration: none; color: inherit; }
 
 
 footer {
-    background-color:#BD8182 ;
+    background-color:#420A04 ;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -173,7 +173,7 @@ input:valid:not(:placeholder-shown) {
 }
 
 button {
-    background-color: #B7818E;
+    background-color: #890620;
     color: rgb(238, 216, 216);
     padding: 10px 20px;
     border: none;
